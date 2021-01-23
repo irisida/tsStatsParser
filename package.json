@@ -1,0 +1,27 @@
+{
+  "name": "tsStatsParser",
+  "version": "1.0.0",
+  "description": "A simple stats csv parser in typescript",
+  "main": "index.js",
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:run": "nodemon build/index.js",
+    "start": "concurrently npm:start:*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/irisida/tsStatsParser.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/irisida/tsStatsParser/issues"
+  },
+  "homepage": "https://github.com/irisida/tsStatsParser#readme",
+  "dependencies": {
+    "@types/node": "^14.14.22",
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.7"
+  }
+}

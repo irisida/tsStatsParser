@@ -1,2 +1,3 @@
 # tsStatsParser
-stats csv parser in typescript
+
+A simple stats csv parser in typescript
